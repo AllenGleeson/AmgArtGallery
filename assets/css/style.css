@@ -1,0 +1,155 @@
+section {
+    display: block;
+    width: 1800px;
+    padding: 20px;
+}
+
+/*------------------------------------------------Color*/
+
+.contentColor {
+    background-color: #6A5ACD;
+}
+
+/*------------------------------------------------Nav Bar*/
+
+.navbar-toggler {
+    background-color: #fafafa;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+body {
+    background-image: url("../images/bluescape.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/*------------------------------------------------Home Page*/
+
+#FeaturedImages {
+    border: 1px solid black;
+    border-color: #fafafa;
+    max-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.carousel-item img {
+    max-height: 700px;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-item img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+}
+
+/*------------------------------------------------Gallery Page*/
+
+.galleryImage {
+    max-height: 350px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    -moz-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+}
+
+@media only screen and (max-width: 768px) {
+    .galleryImage {
+        max-height: none;
+    }
+}
+
+.page-item.disabled .page-link {
+    color: #dee2e6;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #343a40;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #343a40;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fafafa;
+    background-color: #343a40;
+    border: 1px solid #dee2e6;
+}
+
+/*------------------------------------------------Poems*/
+
+.poems {
+    max-width: 100%;
+    -webkit-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    -moz-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    padding: 0;
+    border: none;
+}
+
+/*------------------------------------------------Contact*/
+
+.aboutmeContainer {
+    -webkit-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    -moz-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    margin-bottom: 90px;
+}
+
+#aboutmeBio {
+    font-size: 22px;
+    font-family: Noto Sans, "san-serif";
+    color: #fafafa;
+}
+
+#aboutImage {
+    max-height: 350px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    -moz-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutImage {
+        max-height: none;
+    }
+}
+
+/*------------------------------------------------Footer*/
+
+footer {
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    margin: 0;
+    margin-top: 250px;
+}
+
+@media only screen and (max-width: 500px) {
+    footer {
+        margin-top: 20px;
+    }
+}
+
+#footer-icon {
+    max-width: 150px;
+}

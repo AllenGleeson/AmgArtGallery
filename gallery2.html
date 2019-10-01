@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+    <header class="mb-2">
+        <nav class="navbar navbar-expand-sm navbar-light container">
+            <a class="navbar-brand text-light" href="./index.html">Amg Art</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link text-light" href="./index.html">Home</a>
+                    <a class="nav-item nav-link text-light active" href="./gallery1.html">Gallery <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link text-light" href="./poems.html">Poems</a>
+                    <a class="nav-item nav-link text-light" href="./contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container contentColor">
+        
+        <div class="row">
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-01">
+                <img src="./assets/images/christmassshopping.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">Christmass Shopping</div>
+            </div>
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-02">
+                <img src="./assets/images/citylifedublin.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">City life, Dublin</div>
+            </div>
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-03">
+                <img src="./assets/images/waterlily.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">Water Lily</div>
+            </div>
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-04">
+                <img src="./assets/images/autumnleaves.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">Autumn Leaves</div>
+            </div>
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-05">
+                <img src="./assets/images/pinkrhododendron.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">Pink Hododendron</div>
+            </div>
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-06">
+                <img src="./assets/images/poppypink.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">Poppy Pink</div>
+            </div>
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-07">
+                <img src="./assets/images/irishsea.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">Irish Sea</div>
+            </div>
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-08">
+                <img src="./assets/images/summerplants.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">Summer Plants</div>
+            </div>
+            <div class="col-sm-4 p-3 text-center" data-toggle="modal" data-target="#image-09">
+                <img src="./assets/images/thebeach.jpg" class="galleryImage"></img>
+                <div class="text-center text-light">The Beach</div>
+            </div>
+        </div>
+        
+        <!--  Gallery Page Navigation -->
+        
+        <nav aria-label="GalleryNav">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="./gallery1.html" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="./gallery1.html">1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link active" href="./gallery2.html">2 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="./gallery3.html">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="./gallery3.html">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <footer class="p-4 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>Contact</h5>
+
+                    <ul class="fa-ul">
+                        <li><a href="https://www.instagram.com/annahlinn.art.photography/" class="text-light"><i class="fa-li fa fa-instagram"></i><span>Instagram</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Modals for Images -->
+
+    <div class="modal fade" id="image-01" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/christmassshopping.jpg" class="mw-100"></img>
+                    <div class="text-center">Christmass Shopping</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="image-02" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/citylifedublin.jpg" class="mw-100"></img>
+                    <div class="text-center">City life, Dublin</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="image-03" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/waterlily.jpg" class="mw-100"></img>
+                    <div class="text-center">Water Lily</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="image-04" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/autumnleaves.jpg" class="mw-100"></img>
+                    <div class="text-center">Autumn Leaves</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="image-05" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/pinkrhododendron.jpg" class="mw-100"></img>
+                    <div class="text-center">Pink Hododendron</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="image-06" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/poppypink.jpg" class="mw-100"></img>
+                    <div class="text-center">Poppy Pink</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="image-07" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/irishsea.jpg" class="mw-100"></img>
+                    <div class="text-center">Irish Sea</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="image-08" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/summerplants.jpg" class="mw-100"></img>
+                    <div class="text-center">Summer Plants</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="image-09" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="image">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="./assets/images/thebeach.jpg" class="mw-100"></img>
+                    <div class="text-center">The Beach</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
