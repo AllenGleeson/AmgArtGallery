@@ -27,6 +27,9 @@ https://getbootstrap.com/docs/4.0/components/modal/
 And also a way to navigate through pages with the bootstrap pagination component.
 https://getbootstrap.com/docs/4.0/components/pagination/
 
+The card component for the poems page
+https://getbootstrap.com/docs/4.3/components/card/
+
 
 ## Technologies Used
 
