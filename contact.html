@@ -7,63 +7,90 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
-    <header class="mb-2">
-        <nav class="navbar navbar-expand-sm navbar-light container">
-            <a class="navbar-brand text-light" href="./index.html">Amg Art</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">AMG Art</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link text-light" href="./index.html">Home</a>
-                    <a class="nav-item nav-link text-light" href="./gallery1.html">Gallery</a>
-                    <a class="nav-item nav-link text-light" href="./poems.html">Poems</a>
-                    <a class="nav-item nav-link text-light active" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="./index.html">Home</a>
+                        <a class="nav-item nav-link" href="./gallery1.html">Gallery</a>
+                        <a class="nav-item nav-link" href="./poems.html">Poems</a>
+                        <a class="nav-item nav-link active" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <section class="container">
-        <div>
+    <section class="bg-grey">
+        <div class="container">
+            <div class="p-4">
 
-            <div class="contentColor p-4 aboutmeContainer">
-                <h2  class="text-center text-light">About Me</h2>
-                <div class="row">
-                    <div class="col-sm-6 text-center text-light" id="aboutmeBio">
-                        <p>
-                            I am a artist based in Ireland. This website has a collection of my photographs, drawings paintings and poems from my journey as an artist. Moments pass by, some moments catch my mind's eye. Maybe they will catch yours too. Feel free to look
-                            at my other social media for more.
-                        </p>
+                <div class="contentColor p-4 aboutmeContainer">
+                    <h2 class="text-center">About Me</h2>
+                    <div class="row">
+                        <div class="col-sm-6 text-center align-self-center" id="aboutmeBio">
+                            <p>
+                                I am a artist based in Ireland. This website has a collection of my photographs, drawings paintings and poems from my journey as an artist. Please enjoy my work and contact me if you would like to discuss. Moments pass by, some moments catch my mind's eye. Maybe they will catch yours too. Feel free to look at my other
+                                social media for more.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="fa-ul">
+                                <li><a href="https://www.instagram.com/annahlinn.art.photography/" class="contactContainerLinks"><i class="fa-li fa fa-instagram"></i><span>Instagram</span></a></li>
+                                <li><a href="mailto:name@email.com" class="contactContainerLinks"><i class="fa-li fa fa-envelope-square"></i>annemullettamg@gmail.com</a></li>
+
+                            </ul>
+                            <img src="./assets/images/pinkandred.jpg" id="aboutImage"></img>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/SNsaUfgXqf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <ul class="fa-ul">
-                        <li><a href="https://www.instagram.com/annahlinn.art.photography/" class="text-light"><i class="fa-li fa fa-instagram"></i><span>Instagram</span></a></li>
-                    </ul>
-                        <img src="./assets/images/pinkandred.jpg" id="aboutImage"></img>
-                    </div>
+
+                    <h2 class="text-center mt-5">Contact</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="contactEmail">Email address</label>
+                            <input type="email" class="form-control" id="contactEmail" placeholder="email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactName">Name</label>
+                            <input type="email" class="form-control" id="contactName" placeholder="Name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactMessage">Message</label>
+                            <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-dark">Submit</button>
+                    </form>
                 </div>
+
+
             </div>
-
-
         </div>
+
     </section>
 
     <footer class="p-4 bg-dark text-light">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h5>Contact</h5>
+            <h5>Contact</h5>
 
-                    <ul class="fa-ul">
-                        <li><a href="https://www.instagram.com/annahlinn.art.photography/" class="text-light"><i class="fa-li fa fa-instagram"></i><span>Instagram</span></a></li>
-                    </ul>
-                </div>
-            </div>
+            <ul class="fa-ul">
+                <li><a href="https://www.instagram.com/annahlinn.art.photography/" class="text-light"><i class="fa-li fa fa-instagram"></i><span>Instagram</span></a></li>
+                <li><a href="mailto:name@email.com" class="contactLinks"><i class="fa-li fa fa-envelope-square"></i><span>annemullettamg@gmail.com</span></a></li>
+            </ul>
+
+            <span>All images here are created by Anne Mullett AMG. Based in Ireland.</span>
         </div>
     </footer>
 

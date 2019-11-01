@@ -1,13 +1,11 @@
-section {
-    display: block;
-    width: 1800px;
-    padding: 20px;
-}
-
 /*------------------------------------------------Color*/
 
 .contentColor {
-    background-color: #6A5ACD;
+    background-color: #ccebff;
+}
+
+.bg-grey {
+    background-color: #e6e6e6;
 }
 
 /*------------------------------------------------Nav Bar*/
@@ -18,35 +16,56 @@ section {
 
 .navbar-nav {
     font-size: 20px;
+    color: black;
 }
 
-body {
-    background-image: url("../images/bluescape.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+.navbar-brand {
+    font-family: 'Stoke', serif;
+    font-size: 30px;
 }
-
 
 /*------------------------------------------------Home Page*/
 
 #FeaturedImages {
-    border: 1px solid black;
-    border-color: #fafafa;
     max-height: 700px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
+}
+
+.jumbotron {
+    background-image: url("../images/bluescape.jpg");
+    background-size: cover;
+    margin-bottom: 0;
 }
 
 .carousel-item img {
     max-height: 700px;
 }
 
+.jumbotron-about {
+    text-shadow: 0 0 3px #FF0000;
+    color: #fafafa;
+    text-align: center;
+}
+
+.carousel {
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+}
+
+.carouselImage{
+    width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
     .carousel-item img {
         max-height: 300px;
         max-width: 300px;
+    }
+    #FeaturedImages {
+        width: fit-content;
     }
 }
 
@@ -56,15 +75,25 @@ body {
     max-height: 350px;
     max-width: 100%;
     margin-bottom: 20px;
-    -webkit-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
-    -moz-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
-    box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
 }
 
 @media only screen and (max-width: 768px) {
     .galleryImage {
         max-height: none;
     }
+}
+
+.galleryCaption {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.pagination {
+    padding-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .page-item.disabled .page-link {
@@ -96,35 +125,42 @@ body {
 
 .poems {
     max-width: 100%;
-    -webkit-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
-    -moz-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
-    box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
     padding: 0;
     border: none;
+}
+
+.card-img-top{
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
 }
 
 /*------------------------------------------------Contact*/
 
 .aboutmeContainer {
-    -webkit-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
-    -moz-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
-    box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
     margin-bottom: 90px;
 }
 
 #aboutmeBio {
     font-size: 22px;
     font-family: Noto Sans, "san-serif";
-    color: #fafafa;
 }
 
 #aboutImage {
+    width: 100%;
     max-height: 350px;
     max-width: 100%;
     margin-bottom: 20px;
-    -webkit-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
-    -moz-box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
-    box-shadow: 21px 11px 53px 0px rgba(235, 209, 235, 0.92);
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
 }
 
 @media only screen and (max-width: 768px) {
@@ -133,23 +169,19 @@ body {
     }
 }
 
+.contactContainerLinks {
+    overflow-wrap: break-word;
+}
+
 /*------------------------------------------------Footer*/
+
+.contactLinks {
+    overflow-wrap: break-word;
+    color: #fafafa;
+}
 
 footer {
     bottom: 0;
     width: 100%;
-    white-space: nowrap;
-    /* Set the fixed height of the footer here */
     margin: 0;
-    margin-top: 250px;
-}
-
-@media only screen and (max-width: 500px) {
-    footer {
-        margin-top: 20px;
-    }
-}
-
-#footer-icon {
-    max-width: 150px;
 }
