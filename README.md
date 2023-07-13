@@ -3,7 +3,7 @@
 A website for displaying a selection of an artists images and poems as well as a way to be contacted and view more of the artists work.
 Created using Bootstrap4, HTML5 & CSS3.
 
-Link: https://allengleeson.github.io/AmgArtGallery/
+Link: https://amg-art-gallery-2c2103fcbaf1.herokuapp.com/index.html
 ## UX
 
 This website is for a general audience interested in art.
