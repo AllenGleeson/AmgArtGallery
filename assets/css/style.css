@@ -37,6 +37,7 @@
     background-image: url("../images/bluescape.jpg");
     background-size: cover;
     margin-bottom: 0;
+    border-radius: 0;
 }
 
 .carousel-item img {
@@ -69,6 +70,10 @@
 }
 
 /*------------------------------------------------Gallery Page*/
+
+.pointerCursor{
+    cursor: pointer;
+}
 
 .galleryImage {
     max-height: 350px;
