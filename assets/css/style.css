@@ -4,10 +4,9 @@
     background-color: #ccebff;
 }
 
-.bg-grey {
-    background-color: #e6e6e6;
+.bg-yellow {
+    background-color: #fff700;
 }
-
 /*------------------------------------------------Nav Bar*/
 
 .navbar-toggler {
@@ -130,17 +129,17 @@
 .poems {
     max-width: 100%;
     font-size: 20px;
-    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 7px 4px rgba(255, 255, 255, 0.75);
     padding: 0;
     border: none;
 }
 
 .card-img-top{
-    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 7px 4px rgba(255, 255, 255, 0.75);
 }
 
 /*------------------------------------------------Contact*/
