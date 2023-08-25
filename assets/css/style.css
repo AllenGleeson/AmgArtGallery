@@ -188,3 +188,36 @@ footer {
     width: 100%;
     margin: 0;
 }
+
+@media only screen and (max-width: 500px) {
+    .carousel-item img{
+        height: 250px;
+    }
+    .aboutmeContainer h2 {
+        font-size: 1.5rem;
+    }
+    .aboutmeContainer p {
+        font-size: 1rem;
+    }
+    .fa-ul{
+        margin-left: 1em !important;
+    }
+    .contactContainerLinks{
+        font-size: 0.9rem;
+    }
+    .contactLinks{
+        font-size: 0.9rem;
+    }
+    .jumbotron-about h2{
+        font-size: 1.4rem;
+    }
+    .jumbotron-about h3{
+        font-size: 1.2rem;
+    }
+    .card-title{
+        font-size: 1.5rem !important;
+    }
+    .card-text{
+        font-size: 1rem !important;
+    }
+}
