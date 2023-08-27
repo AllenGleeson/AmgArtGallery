@@ -33,14 +33,14 @@
 }
 
 .jumbotron {
-    background-image: url("../images/bluescape.jpg");
+    background-image: url(../images/poppyred.jpg);
     background-size: cover;
     margin-bottom: 0;
     border-radius: 0;
 }
 
 .carousel-item img {
-    max-height: 700px;
+    max-height: 550px;
 }
 
 .jumbotron-about {
